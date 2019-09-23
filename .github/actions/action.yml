@@ -16,7 +16,7 @@ outputs:
         description: "Names of cats"
         
     
-runs: 'python get_cat_names.py'
+runs: python get_cat_names.py
         
 branding:
     icon: 'alert-octagon'
