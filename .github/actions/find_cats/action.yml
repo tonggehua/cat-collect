@@ -1,0 +1,23 @@
+name: find_cats
+author: Gehua Tong
+description: find some cats and output their names
+inputs: 
+    number_of_cats:
+        description: "Number of cats to find"
+        required: false
+        default: '0'
+        
+    finding_criteria:
+        description: "Criteria used for finding cats"
+        required: true
+
+outputs:
+    cat_names:
+        description: "Names of cats"
+        
+    
+runs: python get_cat_names.py
+        
+branding:
+    icon: 'alert-octagon'
+    color: 'red'
