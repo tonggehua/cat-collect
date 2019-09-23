@@ -14,4 +14,5 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
     - name: Run something custom 
-      uses: ./.github/actions/find_cats
+      run: python get_cat_names.py
+
